@@ -1,0 +1,77 @@
+.Titulo{
+	font-family:Brush Script MT;
+	font-size: 100;
+	color: rgb(102, 0, 102);
+    margin-bottom: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.logo{
+    font-size: 150px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+.Body{
+	background-image: url("muro.jpg");
+	background-size: auto;
+	background-position: center;
+}
+.Inicio{
+    margin:auto;
+	border: 1px solid rgb(51, 51, 204);
+    border-radius: 10px;
+    background-color: rgba(51, 51, 204, 0.4);
+    margin-bottom: 20px;
+    width:300px;
+    box-shadow: 10px 10px rgb(102, 0, 102);
+}
+.Inicio legend{
+    font-family:Brush Script MT;
+    color: rgb(102, 0, 102);
+    text-align: center;
+    font-size: 35px;
+
+}
+.Inicio input[type="text"], .Inicio input[type="password"]{
+	margin:20px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 6px;	
+	width:80%;
+	height: 30px;
+}
+.Registro{
+    margin:auto;
+	border: 1px solid rgb(51, 51, 204);
+    border-radius: 40px 10px;
+    background-color: rgba(51, 51, 204, 0.4);
+    width:250px;
+    margin-bottom: 80px;
+    box-shadow: 10px 10px rgb(102, 0, 102);
+}
+.Nosotros li{
+    list-style-type: circle;
+    color: rgb(255, 255, 51);
+
+}
+.Boton{
+	background-color: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius:70px;
+}
+.Campos{
+	font-size:20;
+	font-weight: bold;
+	color: rgb(102, 0, 102); 
+}
+
+.conteiner-inicio-sesion{
+    margin:auto;
+
+}
